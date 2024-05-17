@@ -42,45 +42,4 @@ function InputFieldWithDropdown() {
     />
   );
 }
-
 export default InputFieldWithDropdown;
-
-
-
-
-
-
-
-
-
-// import React, { useState } from 'react'
-// import './App.css'
-
-// function App() {
-// const defaultValues = ['Education', 'Science', 'Art', 'Sport', 'Games'];
-// // const defaultlogos = ['Education', 'Science', 'Art', 'Sport', 'Games'];
-//   const [inputValue, setInputValue] = useState(defaultValues[0]);
-
-//   const handleChange = (event) => {
-//     setInputValue(event.target.value);
-//   };
-
-//   return (
-//     <form className='myForm'>
-//       <label htmlFor="myInput">Single select</label>
-//       <input type="text" list="defaultValues" id="myInput" onChange={handleChange} placeholder='Select your side' name="myInput" />
-//       <datalist
-//         id="defaultValues"
-//         onChange={handleChange}
-//       >
-//         {defaultValues.map((value, index) => (
-//           <option key={index} value={value}>
-//             {value},
-//           </option>
-//         ))}
-//       </datalist>
-//     </form>
-//   );
-// }
-
-// export default App

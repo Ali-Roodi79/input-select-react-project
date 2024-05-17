@@ -29,27 +29,3 @@ body {
   align-items: center;
   gap: 10px;
 }
-/* .myForm{
-  display: flex;
-  flex-direction: column;
-  color: black;
-  font-size: 2rem;
-}
-
-label{
-  font-weight: bold;
-}
-#myInput{
-  border: 5px solid #313030;
-  border-radius: 10px;
-  box-shadow: rgb(198, 75, 3);
-  margin-top: 2rem;
-  height: 3rem;
-  width: 25rem;
-  background-color: #fff;
-}
-
-#myInput::placeholder{
-  padding-left: 1rem;
-  font-size: 1rem;
-} */
